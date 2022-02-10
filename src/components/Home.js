@@ -106,7 +106,7 @@ const BottomSection = styled.div`
     font-size: small;
 `;
 
-const BottomSection__list = styled.a`
+const BottomSectionList = styled.a`
   padding: 0 5px;
   color: #1a0dab;
   text-decoration: none;
@@ -120,24 +120,24 @@ const Footer = styled.div`
   bottom: 0;
   width: 100%;
 `;
-const Footer__Container1 = styled.div`
+const FooterContainer1 = styled.div`
   padding: 15px 30px;
   border-bottom: 1px solid #dadce0;
   font-size: 15px;
   color: #70757a;
 `;
-const Footer__Container2 = styled.div`
+const FooterContainer2 = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 0 20px;
 `;
 
-const Footer__SubContainer2 = styled.div`
+const FooterSubContainer2 = styled.div`
   display: flex;
 `;
 
-const Footer__P = styled.p`
+const FooterP = styled.p`
   color: #70757a;
   margin: 0px;
   padding: 15px;
@@ -176,36 +176,36 @@ const Home = () => {
         </ButtonSection>
         <BottomSection>
         Google offered in:
-            <BottomSection__list>हिन्दी</BottomSection__list>
-            <BottomSection__list>বাংলা</BottomSection__list>
-            <BottomSection__list>తెలుగు</BottomSection__list>
-            <BottomSection__list>मराठी</BottomSection__list>
-            <BottomSection__list>தமிழ்</BottomSection__list>
-            <BottomSection__list>ગુજરાતી</BottomSection__list>
-            <BottomSection__list>ಕನ್ನಡ</BottomSection__list>
-            <BottomSection__list>മലയാളം</BottomSection__list>
-            <BottomSection__list>ਪੰਜਾਬੀ</BottomSection__list>
+            <BottomSectionList>हिन्दी</BottomSectionList>
+            <BottomSectionList>বাংলা</BottomSectionList>
+            <BottomSectionList>తెలుగు</BottomSectionList>
+            <BottomSectionList>मराठी</BottomSectionList>
+            <BottomSectionList>தமிழ்</BottomSectionList>
+            <BottomSectionList>ગુજરાતી</BottomSectionList>
+            <BottomSectionList>ಕನ್ನಡ</BottomSectionList>
+            <BottomSectionList>മലയാളം</BottomSectionList>
+            <BottomSectionList>ਪੰਜਾਬੀ</BottomSectionList>
         </BottomSection>
       </SearchSection>
 
     </Container>
     <Footer>
-      <Footer__Container1>
+      <FooterContainer1>
         India
-      </Footer__Container1>
-      <Footer__Container2>
-        <Footer__SubContainer2>
-          <Footer__P>About</Footer__P>
-          <Footer__P>Advertising</Footer__P>
-          <Footer__P>Business</Footer__P>
-          <Footer__P>How Search works</Footer__P>
-        </Footer__SubContainer2>
-        <Footer__SubContainer2>
-          <Footer__P>Privacy</Footer__P>
-          <Footer__P>Terms</Footer__P>
-          <Footer__P>Settings</Footer__P>
-        </Footer__SubContainer2>
-      </Footer__Container2>
+      </FooterContainer1>
+      <FooterContainer2>
+        <FooterSubContainer2>
+          <FooterP>About</FooterP>
+          <FooterP>Advertising</FooterP>
+          <FooterP>Business</FooterP>
+          <FooterP>How Search works</FooterP>
+        </FooterSubContainer2>
+        <FooterSubContainer2>
+          <FooterP>Privacy</FooterP>
+          <FooterP>Terms</FooterP>
+          <FooterP>Settings</FooterP>
+        </FooterSubContainer2>
+      </FooterContainer2>
     </Footer>
     </>
   );
