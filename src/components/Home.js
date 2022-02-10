@@ -42,7 +42,7 @@ const Search = styled.div`
   height: 44px;
   margin: 0 auto;
   max-width: 554px;
-  margin: 5px auto;
+  margin: 3px auto 5px auto;
 `;
 
 const ButtonSection = styled.div`
@@ -106,6 +106,7 @@ const BottomSection = styled.div`
     line-height: 28px;
     text-align: center;
     font-size: small;
+    padding-top: 2px;
     padding-left: 2px;
 `;
 

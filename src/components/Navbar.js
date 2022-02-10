@@ -10,7 +10,6 @@ const Nav = styled.nav`
 `;
 const LinkMenu = styled.div`
   padding: 10px;
-  margin-right: 16px;
   display: flex;
   align-items: center;
 `
@@ -19,21 +18,29 @@ const NavLink = styled.a`
   text-decoration: none;
   color: #000;
   svg{
-    padding: 3px 8px 0px 8px;
+    padding: 3px 11px 0px 11px;
     height: 24px;
     width: 24px;
   }
 `;
 const Button = styled.button`
+  font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.25px;
+  line-height: 16px;
+  margin-left: 10px;
+  margin-right: 8px;
+  min-width: 96px;
   padding: 9px 23px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 4px;
+  box-sizing: border-box;
   color: #fff;
   background-color: rgb(26, 115, 232);
-  text-align: center;
-  border-radius: 4px;
-  outline: none;
-  margin-left: 8px;
   border: 1px solid transparent;
-  font-size: 14px
+  outline: none;
 }
   &:hover{
   background: #2b7de9;
@@ -54,7 +61,7 @@ const Navbar = () => {
               </path>
             </svg>
           </NavLink>
-          <Button>Sign In</Button>
+          <Button>Sign in</Button>
         </LinkMenu>
       </Nav>
     </>
