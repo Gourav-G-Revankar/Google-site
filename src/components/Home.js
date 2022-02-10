@@ -17,6 +17,7 @@ const LogoSection = styled.div`
     width: 272px;
     height: 92px;
     margin-top: auto;
+    padding-bottom: 3px;
   }
 `;
 
@@ -40,14 +41,15 @@ const Search = styled.div`
   z-index: 3;
   height: 44px;
   margin: 0 auto;
-  max-width: 556px;
+  max-width: 554px;
+  margin: 5px auto;
 `;
 
 const ButtonSection = styled.div`
   display: flex;
   justify-content: center;
-  height: 70px;
-  padding-top: 18px;
+  height: 68px;
+  padding-top: 13px;
   top: 53px;
   z-index: 0;
 
@@ -104,6 +106,7 @@ const BottomSection = styled.div`
     line-height: 28px;
     text-align: center;
     font-size: small;
+    padding-left: 2px;
 `;
 
 const BottomSectionList = styled.a`
@@ -112,6 +115,9 @@ const BottomSectionList = styled.a`
   text-decoration: none;
   font-size: 13px;
   line-height: 28px;
+  &:first-child{
+    padding-left: 7px
+  }
 `;
 
 const Footer = styled.div`
