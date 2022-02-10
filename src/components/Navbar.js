@@ -18,9 +18,10 @@ const NavLink = styled.a`
   text-decoration: none;
   color: #000;
   svg{
-    padding: 3px 11px 0px 11px;
+    padding: 3px 10px 0px 12px;
     height: 24px;
     width: 24px;
+    fill: #5f6368;
   }
 `;
 const Button = styled.button`
